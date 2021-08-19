@@ -1,12 +1,13 @@
 import React from 'react';
 import Layout from '../components/Layout';
 
-const Error = () => {
+const about = () => {
   return (
     <Layout>
-      <h1>Error page</h1>
+      <title>About</title>
+      <h2>this is about us page</h2>
     </Layout>
   );
 };
 
-export default Error;
+export default about;
